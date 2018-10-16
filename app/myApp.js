@@ -1,5 +1,3 @@
-'use strict';
-var angular = require('angular');
 var model = {
     items: [
         { purchase: "Хлеб", done: false, price: 15.9 },

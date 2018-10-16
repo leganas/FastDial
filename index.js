@@ -1,6 +1,4 @@
 require('./node_modules/jquery-1.8/jquery.min');
-//require('./node_modules/angular/angular.min');
-require('./app/myApp');
 var drawing = document.getElementById("drawing");
 // проверка полной подержки элемента < canvas >
 if (drawing != null){
