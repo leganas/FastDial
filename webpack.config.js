@@ -3,7 +3,7 @@ module.exports = {
     output: {
         filename: 'bundle.js'
     },
-    devtool: 'source-map',
+    devtool: 'eval-source-map',
     module: {
         rules: [
             {

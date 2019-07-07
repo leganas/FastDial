@@ -1,5 +1,5 @@
 chrome.browserAction.onClicked.addListener(function(activeTab) {
-    var mypage = "app/angularApp.html";
+    var mypage = "app/tabs.html";
     chrome.tabs.query({
         active: true,
         lastFocusedWindow: true
